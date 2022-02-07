@@ -2,7 +2,7 @@ FROM alpine:3.5
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
-ADD . /src
+ADD ./src /src
 
 ENV NGINX_VERSION 1.12.2
 ENV LUAJIT_VERSION 2.0.5
